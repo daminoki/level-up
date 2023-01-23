@@ -1,12 +1,12 @@
-.promo__button {
+.order-button {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    min-width: 240px;
+    width: fit-content;
     border: none;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 18px;
@@ -14,11 +14,11 @@
     font-weight: 500;
 }
 
-.promo__button:hover {
+.order-button:hover {
     opacity: 0.8;
 }
 
-.promo__button::after {
+.order-button::after {
     background-image: url('../../../../images/arrow.svg');
     content: '';
     width: 18px;
@@ -26,6 +26,12 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.promo__button:hover::after {
+.order-button:hover::after {
     transform: translateX(10px);
+}
+
+@media screen and (max-width: 600px) {
+    .order-button {
+        width: 100%;
+    }
 }

@@ -1,0 +1,8 @@
+.ingredients__item {
+    display: grid;
+    grid-template-rows: 1fr 0.4fr;
+    place-items: center;
+    gap: 10px;
+    max-width: 250px;
+    text-align: center;
+}

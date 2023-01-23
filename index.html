@@ -14,15 +14,13 @@
 <body class="page">
     <main>
             <section class="promo">
-                <div class="promo__video-container">
-                    <iframe
-                        class="promo__video"
-                        src="https://player.vimeo.com/video/666601057?h=576b53c9fa&background=1"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-                </div>
+                <iframe
+                    class="promo__video"
+                    src="https://player.vimeo.com/video/666601057?h=576b53c9fa&background=1"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
 
                 <div class="container">
                     <div class="promo__content">
@@ -55,17 +53,63 @@
                                 </ul>
                             </div>
                         </div>
-                        <button class="promo__button">Заказать</button>
+                        <button class="order-button">Заказать</button>
                     </div>
                 </div>
             </section>
 
-            <section></section>
+            <section class="ingredients">
+                <h2 class="ingredients__title">Состав продукта</h2>
+                    <div class="ingredients__wrapper">
+                        <div class="ingredients__column-wrapper">
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/ingr1.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Силденафила цитрат</h3>
+                            </div>
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/ingr2.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Гипромеллоза</h3>
+                            </div>
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/ingr3.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Триацетин</h3>
+                            </div>
+                        </div>
+                        <img src="./images/prod.png" alt="LevelUp" width="140" height="220">
+                        <div class="ingredients__column-wrapper">
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/ingr4.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Кальция гидрофосфат</h3>
+                            </div>
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/ingr5.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Кроскармеллоза натрия</h3>
+                            </div>
+                            <div class="ingredients__item">
+                                <img class="ingredients__img" src="./images/inrg6.jpeg" alt="Ingredient" width="160" height="160">
+                                <h3 class="ingredients__subtitle">Биотин</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="order-button order-button_place_ingredients">Заказать</button>
+            </section>
     </main>
     
 
     <footer>
 
     </footer>
+
+    <script>
+        window.addEventListener("resize", () => {
+            const promo = document.querySelector('.promo');
+            const iframe = document.querySelector('.promo__video');
+
+            if (iframe) {
+                const promoHeight = promo.offsetHeight;
+                iframe.style.width = `calc(${promoHeight}px * ${16/9})`
+            }
+        })
+    </script>
 </body>
 </html>

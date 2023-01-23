@@ -1,5 +1,7 @@
 @import url(./reset.css);
 @import url(./blocks/page/page.css);
+@import url(./blocks/order-button/order-button.css);
+@import url(./blocks/order-button/_place/order-button_place_ingredients.css);
 @import url(./blocks/container/container.css);
 @import url(./blocks/promo/promo.css);
 @import url(./blocks/promo/__video/promo__video.css);
@@ -10,6 +12,13 @@
 @import url(./blocks/promo/__list/promo__list.css);
 @import url(./blocks/promo/__list-wrapper/promo__list-wrapper.css);
 @import url(./blocks/promo/__description/promo__description.css);
-@import url(./blocks/promo/__button/promo__button.css);
+@import url(./blocks/ingredients/ingredients.css);
+@import url(./blocks/ingredients/__wrapper/ingredients__wrapper.css);
+@import url(./blocks/ingredients/__img/ingredients__img.css);
+@import url(./blocks/ingredients/__column-wrapper/ingredients__column-wrapper.css);
+@import url(./blocks/ingredients/__item/ingredients__item.css);
+@import url(./blocks/ingredients/__title/ingredients__title.css);
+@import url(./blocks/ingredients/__subtitle/ingredients__subtitle.css);
+
 
 

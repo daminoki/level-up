@@ -1,13 +1,11 @@
-.promo__content-wrapper {
+.ingredients__wrapper {
     display: flex;
-    gap: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
-    .promo__content-wrapper {
+    .ingredients__wrapper {
         flex-direction: column;
     }
 }
