@@ -1,0 +1,31 @@
+.promo__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-width: 240px;
+    border: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.promo__button:hover {
+    opacity: 0.8;
+}
+
+.promo__button::after {
+    background-image: url('../../../../images/arrow.svg');
+    content: '';
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.promo__button:hover::after {
+    transform: translateX(10px);
+}

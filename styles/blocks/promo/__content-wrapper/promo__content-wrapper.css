@@ -1,0 +1,7 @@
+.promo__content-wrapper {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

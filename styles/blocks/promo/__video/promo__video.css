@@ -1,0 +1,17 @@
+.promo__video {
+    height: 57.25vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    width: 177.77777778vh;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+    .promo__video {
+        position: fixed;
+    }
+}

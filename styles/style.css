@@ -1,0 +1,15 @@
+@import url(./reset.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/promo/promo.css);
+@import url(./blocks/promo/__video/promo__video.css);
+@import url(./blocks/promo/__content/promo__content.css);
+@import url(./blocks/promo/__title/promo__title.css);
+@import url(./blocks/promo/__content-wrapper/promo__content-wrapper.css);
+@import url(./blocks/promo/__description-wrapper/promo__description-wrapper.css);
+@import url(./blocks/promo/__list/promo__list.css);
+@import url(./blocks/promo/__list-wrapper/promo__list-wrapper.css);
+@import url(./blocks/promo/__description/promo__description.css);
+@import url(./blocks/promo/__button/promo__button.css);
+
+
