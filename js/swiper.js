@@ -1,6 +1,7 @@
 (() => {
     const swiper = new Swiper('.swiper', {
         loop: true,
+        spaceBetween: 150,
 
         pagination: {
             el: '.swiper-pagination',

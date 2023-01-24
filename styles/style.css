@@ -3,6 +3,7 @@
 @import url(./blocks/order-button/order-button.css);
 @import url(./blocks/order-button/_place/order-button_place_ingredients.css);
 @import url(./blocks/container/container.css);
+@import url(./blocks/container/_product/container_product.css);
 @import url(./blocks/promo/promo.css);
 @import url(./blocks/promo/__video/promo__video.css);
 @import url(./blocks/promo/__content/promo__content.css);
@@ -27,3 +28,7 @@
 @import url(./blocks/reviews/__photo/reviews__photo.css);
 @import url(./blocks/reviews/__name/reviews__name.css);
 @import url(./blocks/reviews/__description/reviews__description.css);
+@import url(./blocks/product/product.css);
+@import url(./blocks/product/__wrapper/product__wrapper.css);
+@import url(./blocks/product/__list/product__list.css);
+@import url(./blocks/product/__description/product__description.css);
