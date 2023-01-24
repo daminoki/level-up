@@ -1,0 +1,11 @@
+.reviews__wrapper {
+    min-height: 460px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: linear-gradient(180deg, #67C3F3 0%, #5A98F2 100%);
+    border-radius: 10px;
+}

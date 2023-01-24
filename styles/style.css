@@ -19,6 +19,11 @@
 @import url(./blocks/ingredients/__item/ingredients__item.css);
 @import url(./blocks/ingredients/__title/ingredients__title.css);
 @import url(./blocks/ingredients/__subtitle/ingredients__subtitle.css);
-
-
-
+@import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/__wrapper/reviews__wrapper.css);
+@import url(./blocks/reviews/__title/reviews__title.css);
+@import url(./blocks/reviews/__customer-wrapper/review__customer-wrapper.css);
+@import url(./blocks/reviews/__customer/reviews__customer.css);
+@import url(./blocks/reviews/__photo/reviews__photo.css);
+@import url(./blocks/reviews/__name/reviews__name.css);
+@import url(./blocks/reviews/__description/reviews__description.css);
