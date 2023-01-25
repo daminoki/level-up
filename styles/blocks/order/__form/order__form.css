@@ -5,5 +5,12 @@
     gap: 10px;
     background: rgba(255, 255, 255, 0.3);
     padding: 40px;
-    border-radius: 5px;
+    border-radius: var(--default-border-radius);   
+}
+
+@media screen and (max-width: 900px) {
+    .order__form {
+        margin-top: 20px;
+        min-width: 100%;
+    }
 }

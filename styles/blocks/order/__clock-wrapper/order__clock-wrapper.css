@@ -2,10 +2,12 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-bottom: 44px;
 }
 
 @media screen and (max-width: 900px){
     .order__clock-wrapper {
         flex-direction: column;
+        margin-bottom: 30px;
     }
 }

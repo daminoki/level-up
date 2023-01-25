@@ -49,3 +49,6 @@
 @import url(./blocks/order/__form-input/order__form-input.css);
 @import url(./blocks/order/__form-label/order__form-label.css);
 @import url(./blocks/order/__submit-button/order__submit-button.css);
+@import url(./blocks/tooltip/tooltip.css);
+@import url(./blocks/tooltip/__text/tooltip__text.css);
+@import url(./blocks/tooltip/__text/_top/tooltip__text_top.css);

@@ -17,4 +17,5 @@
     animation-name: scale;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    font-weight: var(--font-weight-bold);
 }

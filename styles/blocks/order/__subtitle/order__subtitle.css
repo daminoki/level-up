@@ -4,3 +4,9 @@
     line-height: 1.2;
     font-weight: var(--font-weight-medium);
 }
+
+@media screen and (max-width: 900px) {
+    .order__subtitle {
+        text-align: center;
+    }
+}

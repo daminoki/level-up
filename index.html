@@ -181,21 +181,27 @@
                                 </ins>
                               </div>
                         </div>
-                        <form class="order__form">
+                        <form class="order__form" name="order-form" autocomplete="off">
                             <label class="order__form-label" for="name"> Имя:</label>
-                            <input class="order__form-input" type="name" id="name" name="name" placeholder="Введите Ваше имя..." required>
+                            <div class="tooltip">
+                                <input class="order__form-input" type="name" id="name" name="name" placeholder="Введите Ваше имя..." required>
+                                <span class="tooltip__text tooltip__text_top">Например: Александр</span>
+                            </div>
                             <label class="order__form-label" for="phone">Телефон:</label>
-                            <input class="order__form-input" type="tel" id="phone" name="phone" placeholder="Введите Ваш номер телефона..." required>
+                            <div class="tooltip">
+                                <input class="order__form-input" type="tel" id="phone" name="phone" placeholder="Введите Ваш номер телефона..." required>
+                                <span class="tooltip__text tooltip__text_top">Например: 89534671892</span>
+                            </div>
                             <button class="order__submit-button" type="submit">Сделать заказ</button>
                         </form>
                     </div>
                 </div>
-
             </section>
     </main>
 
     <script src="./js/iframeVideo.js"></script>
     <script src="./js/swiper.js"></script>
     <script src="./js/timer.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>

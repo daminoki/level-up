@@ -14,3 +14,7 @@
 .order__form-input:focus {
     outline-color: #5A98F2;
 }
+
+.order__form-input:focus + .tooltip__text {
+    visibility: visible;
+}
