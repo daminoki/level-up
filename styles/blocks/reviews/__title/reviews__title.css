@@ -1,8 +1,14 @@
 .reviews__title {
-    color: #fff;
-    font-size: 36px;
-    line-height: 48px;
-    font-weight: 700;
+    color: var(--contrast-text-color);
+    font-size: var(--content-title-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-bold);
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 900px) {
+    .reviews__title {
+      text-align: center;
+    }
 }

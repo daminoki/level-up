@@ -7,14 +7,11 @@
     <link rel="icon" href="./images/prod.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <title>Level Up</title>
 </head>
 <body class="page">
@@ -59,7 +56,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <button class="order-button">Заказать</button>
+                        <a href="#order" class="order-link">Заказать</a>
                     </div>
                 </div>
             </section>
@@ -82,7 +79,7 @@
                                 <h3 class="ingredients__subtitle">Триацетин</h3>
                             </div>
                         </div>
-                        <img src="./images/prod.png" alt="LevelUp" width="140" height="220">
+                        <img class="ingredients__product" src="./images/prod.png" alt="LevelUp" width="140" height="220">
                         <div class="ingredients__column-wrapper">
                             <div class="ingredients__item">
                                 <img class="ingredients__img" src="./images/ingr4.jpeg" alt="Ingredient" width="160" height="160">
@@ -98,7 +95,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="order-button order-button_place_ingredients">Заказать</button>
+                    <a href="#order" class="order-link order-link_place_ingredients">Заказать</a>
                 </div>
             </section>
 
@@ -141,10 +138,10 @@
                         <div class="swiper-pagination"></div>
 
                         <div class="swiper-button-prev">
-                            <img src="./images/prev.svg" alt="Prev">
+                            <img src="./images/prev.svg" alt="Prev" width="32" height="32">
                         </div>
                         <div class="swiper-button-next">
-                            <img src="./images/next.svg" alt="Next">
+                            <img src="./images/next.svg" alt="Next" width="32" height="32">
                         </div>
                     </div>
                 </div>
@@ -161,12 +158,44 @@
                         <li>Качественно</li>
                         <li>Надежно</li>
                     </ul>
-                    <button class="order-button">Заказать</button>
+                    <a href="#order" class="order-link">Заказать</a>
                 </div>
+            </section>
+
+            <section class="order" id="order">
+                <div class="container container_order">
+                    <h2 class="order__title">Закажи LevelUp сейчас</h2>
+                    <div class="order__clock-wrapper">
+                        <p class="order__subtitle">До конца действия скидки осталось</p>
+                        <div class="order__clock" id="clock">30:00</div>        
+                    </div>
+                    <div class="order__wrapper">
+                        <div class="order__product-wrapper">
+                            <img src="./images/prod.png" alt="LevelUp" width="100" height="160">
+                            <div>
+                                <del class="order__price">
+                                  <span>10 999 руб.</span>
+                                </del>
+                                <ins>
+                                    <span class="order__price_discount">3 999 руб.</span>
+                                </ins>
+                              </div>
+                        </div>
+                        <form class="order__form">
+                            <label class="order__form-label" for="name"> Имя:</label>
+                            <input class="order__form-input" type="name" id="name" name="name" placeholder="Введите Ваше имя..." required>
+                            <label class="order__form-label" for="phone">Телефон:</label>
+                            <input class="order__form-input" type="tel" id="phone" name="phone" placeholder="Введите Ваш номер телефона..." required>
+                            <button class="order__submit-button" type="submit">Сделать заказ</button>
+                        </form>
+                    </div>
+                </div>
+
             </section>
     </main>
 
     <script src="./js/iframeVideo.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/timer.js"></script>
 </body>
 </html>

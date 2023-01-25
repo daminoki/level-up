@@ -1,0 +1,15 @@
+:root {
+    --section-title-font-size: 44px;
+    --content-title-font-size: 24px;
+    --default-text-font-size: 16px;
+
+    --default-border-radius: 10px;
+
+    --default-text-color: #333;
+    --contrast-text-color: #fff;
+    --swiper-theme-color: #fff !important;
+
+    --font-weight-default: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+}

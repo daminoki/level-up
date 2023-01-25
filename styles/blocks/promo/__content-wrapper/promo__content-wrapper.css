@@ -1,13 +1,14 @@
 .promo__content-wrapper {
-    display: flex;
-    gap: 50px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
     align-items: center;
+    justify-items: center;
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .promo__content-wrapper {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }

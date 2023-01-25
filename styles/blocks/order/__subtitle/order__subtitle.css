@@ -1,6 +1,6 @@
-.ingredients__subtitle {
+.order__subtitle {
     color: var(--default-text-color);
     font-size: var(--content-title-font-size);
     line-height: 1.2;
-    font-weight: var( --font-weight-medium);
+    font-weight: var(--font-weight-medium);
 }

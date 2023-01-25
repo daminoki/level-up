@@ -1,0 +1,11 @@
+.order__clock-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px){
+    .order__clock-wrapper {
+        flex-direction: column;
+    }
+}

@@ -4,3 +4,9 @@
     gap: 20px;
     padding: 40px;
 }
+
+@media screen and (max-width: 900px) {
+    .ingredients {
+        padding: 40px 0 0;
+    }
+}

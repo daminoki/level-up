@@ -10,7 +10,7 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 900) {
     .promo__video {
         position: absolute;
         top: 50%;

@@ -1,5 +1,11 @@
 .reviews__description {
-    color: #fff;
-    font-size: 19px;
-    line-height: 30px;
+    color: var(--contrast-text-color);
+    font-size: var(--default-text-font-size);
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 900px) {
+    .reviews__description {
+      text-align: center;
+    }
 }

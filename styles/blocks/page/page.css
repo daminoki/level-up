@@ -1,4 +1,6 @@
 .page {
     font-family: 'Roboto', Verdana, sans-serif;
+    font-size: var(--default-text-font-size);
+    color: var(--default-text-color);
     background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(153,198,207,0.3) 23%, rgba(124,159,209,0.3) 43%, rgba(123,170,212,0.2987788865546218) 100%);
 }

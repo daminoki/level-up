@@ -1,0 +1,6 @@
+.order__clock {
+    color: #5A98F2;
+    font-size: var(--content-title-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-medium);
+}

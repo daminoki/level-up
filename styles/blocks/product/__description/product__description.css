@@ -1,5 +1,11 @@
 .product__description {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
+    color: var(--default-text-color);
+    font-size: var(--default-text-font-size);
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 900px) {
+    .product__description {
+        text-align: center;
+    }
 }

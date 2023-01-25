@@ -1,7 +1,7 @@
 .reviews__wrapper {
-    min-height: 460px;
+    min-height: 100%;
     margin: 0 auto;
-    padding: 40px 80px;
+    padding: 40px 80px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;

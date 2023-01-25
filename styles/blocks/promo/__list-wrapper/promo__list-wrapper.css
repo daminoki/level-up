@@ -1,4 +1,7 @@
 .promo__list-wrapper {
     display: flex;
+    align-items: center;
     gap: 10px;
+    font-size: var(--content-title-font-size);
+    font-weight: var(--font-weight-bold);
 }

@@ -1,0 +1,6 @@
+.order__form-label {
+    color: var(--default-text-color);
+    font-size: var(--default-text-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-medium);
+}

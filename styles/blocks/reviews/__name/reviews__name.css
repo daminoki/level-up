@@ -1,6 +1,12 @@
 .reviews__name {
-    color: #fff;
-    font-size: 22px;
-    line-height: 48px;
-    font-weight: 700;
+    color: var(--contrast-text-color);
+    font-size: var(--content-title-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-bold);
+}
+
+@media screen and (max-width: 900px) {
+    .reviews__name {
+      text-align: center;
+    }
 }

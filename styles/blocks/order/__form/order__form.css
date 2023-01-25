@@ -1,0 +1,9 @@
+.order__form {
+    display: flex;
+    flex-direction: column;
+    min-width: 420px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    border-radius: 5px;
+}

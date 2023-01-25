@@ -1,7 +1,6 @@
 .promo__title {
-    color: #fff;
-    font-size: 64px;
-    line-height: 77px;
-    font-weight: 700;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: var(--contrast-text-color);
+    font-size: var(--section-title-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-bold);
 }

@@ -4,8 +4,11 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .ingredients__wrapper {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 20px;
     }
 }

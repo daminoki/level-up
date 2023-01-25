@@ -1,37 +1,40 @@
-.order-button {
+.order-link {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     width: fit-content;
     border: none;
+    color: inherit;
     background-color: #fff;
     padding: 10px 40px;
-    border-radius: 10px;
-    cursor: pointer;
+    border-radius: var(--default-border-radius);
     font-size: 18px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.order-button:hover {
+.order-link:hover {
     opacity: 0.8;
 }
 
-.order-button::after {
+.order-link::after {
     background-image: url('../../../../images/arrow.svg');
+    background-repeat: no-repeat;
     content: '';
     width: 18px;
     height: 18px;
     transition: transform 0.3s ease-in-out;
 }
 
-.order-button:hover::after {
+.order-link:hover::after {
     transform: translateX(10px);
 }
 
-@media screen and (max-width: 600px) {
-    .order-button {
+@media screen and (max-width: 900px) {
+    .order-link {
         width: 100%;
     }
 }

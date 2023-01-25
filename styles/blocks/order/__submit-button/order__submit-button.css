@@ -1,0 +1,12 @@
+.order__submit-button {
+    background: linear-gradient(180deg, #67C3F3 0%, #5A98F2 100%);
+    color: var(--contrast-text-color);
+    border: none;
+    padding: 12px 20px;
+    font-size: var(--default-text-font-size);
+    line-height: 1.2;
+    cursor: pointer;
+    font-weight: var(--font-weight-medium);
+    margin-top: 20px;
+    border-radius: 5px;
+}

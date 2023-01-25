@@ -1,7 +1,6 @@
-.ingredients__column-wrapper {
+.order__product-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 100%;
 }

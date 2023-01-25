@@ -1,9 +1,9 @@
-.product {
+.order {
     padding: 40px;
 }
 
 @media screen and (max-width: 900px) {
-    .product {
+    .order {
         padding: 40px 40px 0;
     }
 }

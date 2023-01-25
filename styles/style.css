@@ -1,7 +1,9 @@
 @import url(./reset.css);
+@import url(./variables.css);
+@import url(./common.css);
 @import url(./blocks/page/page.css);
-@import url(./blocks/order-button/order-button.css);
-@import url(./blocks/order-button/_place/order-button_place_ingredients.css);
+@import url(./blocks/order-link/order-link.css);
+@import url(./blocks/order-link/_place/order-link_place_ingredients.css);
 @import url(./blocks/container/container.css);
 @import url(./blocks/container/_product/container_product.css);
 @import url(./blocks/promo/promo.css);
@@ -20,6 +22,7 @@
 @import url(./blocks/ingredients/__item/ingredients__item.css);
 @import url(./blocks/ingredients/__title/ingredients__title.css);
 @import url(./blocks/ingredients/__subtitle/ingredients__subtitle.css);
+@import url(./blocks/ingredients/__product/ingredients__product.css);
 @import url(./blocks/reviews/reviews.css);
 @import url(./blocks/reviews/__wrapper/reviews__wrapper.css);
 @import url(./blocks/reviews/__title/reviews__title.css);
@@ -32,3 +35,17 @@
 @import url(./blocks/product/__wrapper/product__wrapper.css);
 @import url(./blocks/product/__list/product__list.css);
 @import url(./blocks/product/__description/product__description.css);
+@import url(./blocks/order/order.css);
+@import url(./blocks/order/__wrapper/order__wrapper.css);
+@import url(./blocks/order/__form/order__form.css);
+@import url(./blocks/order/__title/order__title.css);
+@import url(./blocks/order/__clock/order__clock.css);
+@import url(./blocks/order/__clock-wrapper/order__clock-wrapper.css);
+@import url(./blocks/order/__subtitle/order__subtitle.css);
+@import url(./blocks/container/_order/container_order.css);
+@import url(./blocks/order/__product-wrapper/order__product-wrapper.css);
+@import url(./blocks/order/__price/order__price.css);
+@import url(./blocks/order/__price/_discount/order__price_discount.css);
+@import url(./blocks/order/__form-input/order__form-input.css);
+@import url(./blocks/order/__form-label/order__form-label.css);
+@import url(./blocks/order/__submit-button/order__submit-button.css);

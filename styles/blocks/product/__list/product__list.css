@@ -1,6 +1,9 @@
 .product__list {
+    color: var(--default-text-color);
     display: flex;
     gap: 20px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: var(--content-title-font-size);
+    line-height: 1.2;
+    font-weight: var(--font-weight-medium);
+    text-transform: uppercase;
 }

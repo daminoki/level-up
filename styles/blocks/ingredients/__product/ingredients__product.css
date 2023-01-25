@@ -1,0 +1,17 @@
+.ingredients__product {
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .ingredients__product {
+        width: 100px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ingredients__product {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
